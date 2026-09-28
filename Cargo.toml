@@ -1,0 +1,32 @@
+[package]
+name = "stm32rpm"
+version = "0.1.0"
+edition = "2024"
+
+
+[dependencies]
+cortex-m = { version = "0.7.9", features = ["critical-section-single-core"] }
+cortex-m-rt = "0.7.6"
+critical-section = "1.2.0"
+embassy-executor = { version = "0.10.0", features = [
+    "platform-cortex-m",
+    "executor-thread",
+    "log",
+] }
+embassy-stm32 = { version = "0.6.0", features = [
+    "stm32h753zi",
+    "memory-x",
+    "unstable-pac",
+    "time",
+    "time-driver-any",
+    "exti",
+    "log",
+] }
+embassy-time = "0.5.1"
+log = "0.4.34"
+panic-probe = { version = "1.0.0", features = ["rtt-target"] }
+rtt-target = { version = "0.6.2", features = ["log"] }
+
+[profile.dev]
+codegen-units = 1
+debug = true
