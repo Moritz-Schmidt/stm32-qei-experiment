@@ -8,12 +8,12 @@ edition = "2024"
 cortex-m = { version = "0.7", features = ["critical-section-single-core"] }
 cortex-m-rt = "0.7"
 critical-section = "1.2"
-embassy-executor = { git = "https://github.com/embassy-rs/embassy.git", rev = "0e68e10a8b9fbd3a9e819a872b31b44a8812021b", features = [
+embassy-executor = { git = "https://github.com/Moritz-Schmidt/embassy.git", branch = "stm32-macro-scope", features = [
     "platform-cortex-m",
     "executor-thread",
     "log",
 ] }
-embassy-stm32 = { git = "https://github.com/embassy-rs/embassy.git", rev = "0e68e10a8b9fbd3a9e819a872b31b44a8812021b", features = [
+embassy-stm32 = { git = "https://github.com/Moritz-Schmidt/embassy.git", branch = "stm32-macro-scope", features = [
     #"stm32h753zi",
     "stm32g474re",
     "memory-x",
@@ -24,7 +24,7 @@ embassy-stm32 = { git = "https://github.com/embassy-rs/embassy.git", rev = "0e68
     "log",
     "single-bank",
 ] }
-embassy-time = { git = "https://github.com/embassy-rs/embassy.git", rev = "0e68e10a8b9fbd3a9e819a872b31b44a8812021b" }
+embassy-time = { git = "https://github.com/Moritz-Schmidt/embassy.git", branch = "stm32-macro-scope" }
 log = "0.4.34"
 panic-probe = { version = "1.0.0", features = ["rtt-target"] }
 rtt-target = { version = "0.6.2", features = ["log"] }

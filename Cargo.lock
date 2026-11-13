@@ -170,7 +170,7 @@ dependencies = [
 [[package]]
 name = "embassy-crypto"
 version = "0.1.0"
-source = "git+https://github.com/embassy-rs/embassy.git?rev=0e68e10a8b9fbd3a9e819a872b31b44a8812021b#0e68e10a8b9fbd3a9e819a872b31b44a8812021b"
+source = "git+https://github.com/Moritz-Schmidt/embassy.git?branch=stm32-macro-scope#d682f85a4785b9edbf6d50310bd6ffd68469366f"
 dependencies = [
  "unitrait",
 ]
@@ -178,7 +178,7 @@ dependencies = [
 [[package]]
 name = "embassy-embedded-hal"
 version = "0.6.0"
-source = "git+https://github.com/embassy-rs/embassy.git?rev=0e68e10a8b9fbd3a9e819a872b31b44a8812021b#0e68e10a8b9fbd3a9e819a872b31b44a8812021b"
+source = "git+https://github.com/Moritz-Schmidt/embassy.git?branch=stm32-macro-scope#d682f85a4785b9edbf6d50310bd6ffd68469366f"
 dependencies = [
  "embassy-futures",
  "embassy-sync",
@@ -193,7 +193,7 @@ dependencies = [
 [[package]]
 name = "embassy-executor"
 version = "0.10.0"
-source = "git+https://github.com/embassy-rs/embassy.git?rev=0e68e10a8b9fbd3a9e819a872b31b44a8812021b#0e68e10a8b9fbd3a9e819a872b31b44a8812021b"
+source = "git+https://github.com/Moritz-Schmidt/embassy.git?branch=stm32-macro-scope#d682f85a4785b9edbf6d50310bd6ffd68469366f"
 dependencies = [
  "cordyceps",
  "cortex-m",
@@ -208,7 +208,7 @@ dependencies = [
 [[package]]
 name = "embassy-executor-macros"
 version = "0.8.0"
-source = "git+https://github.com/embassy-rs/embassy.git?rev=0e68e10a8b9fbd3a9e819a872b31b44a8812021b#0e68e10a8b9fbd3a9e819a872b31b44a8812021b"
+source = "git+https://github.com/Moritz-Schmidt/embassy.git?branch=stm32-macro-scope#d682f85a4785b9edbf6d50310bd6ffd68469366f"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -218,7 +218,7 @@ dependencies = [
 [[package]]
 name = "embassy-executor-timer-queue"
 version = "0.1.1"
-source = "git+https://github.com/embassy-rs/embassy.git?rev=0e68e10a8b9fbd3a9e819a872b31b44a8812021b#0e68e10a8b9fbd3a9e819a872b31b44a8812021b"
+source = "git+https://github.com/Moritz-Schmidt/embassy.git?branch=stm32-macro-scope#d682f85a4785b9edbf6d50310bd6ffd68469366f"
 dependencies = [
  "unitrait",
 ]
@@ -226,12 +226,12 @@ dependencies = [
 [[package]]
 name = "embassy-futures"
 version = "0.1.2"
-source = "git+https://github.com/embassy-rs/embassy.git?rev=0e68e10a8b9fbd3a9e819a872b31b44a8812021b#0e68e10a8b9fbd3a9e819a872b31b44a8812021b"
+source = "git+https://github.com/Moritz-Schmidt/embassy.git?branch=stm32-macro-scope#d682f85a4785b9edbf6d50310bd6ffd68469366f"
 
 [[package]]
 name = "embassy-hal-internal"
 version = "0.5.0"
-source = "git+https://github.com/embassy-rs/embassy.git?rev=0e68e10a8b9fbd3a9e819a872b31b44a8812021b#0e68e10a8b9fbd3a9e819a872b31b44a8812021b"
+source = "git+https://github.com/Moritz-Schmidt/embassy.git?branch=stm32-macro-scope#d682f85a4785b9edbf6d50310bd6ffd68469366f"
 dependencies = [
  "cortex-m",
  "critical-section",
@@ -240,7 +240,7 @@ dependencies = [
 [[package]]
 name = "embassy-stm32"
 version = "0.6.0"
-source = "git+https://github.com/embassy-rs/embassy.git?rev=0e68e10a8b9fbd3a9e819a872b31b44a8812021b#0e68e10a8b9fbd3a9e819a872b31b44a8812021b"
+source = "git+https://github.com/Moritz-Schmidt/embassy.git?branch=stm32-macro-scope#d682f85a4785b9edbf6d50310bd6ffd68469366f"
 dependencies = [
  "aligned",
  "bitflags",
@@ -284,7 +284,7 @@ dependencies = [
 [[package]]
 name = "embassy-sync"
 version = "0.8.0"
-source = "git+https://github.com/embassy-rs/embassy.git?rev=0e68e10a8b9fbd3a9e819a872b31b44a8812021b#0e68e10a8b9fbd3a9e819a872b31b44a8812021b"
+source = "git+https://github.com/Moritz-Schmidt/embassy.git?branch=stm32-macro-scope#d682f85a4785b9edbf6d50310bd6ffd68469366f"
 dependencies = [
  "critical-section",
  "embedded-io-async 0.7.0",
@@ -296,7 +296,7 @@ dependencies = [
 [[package]]
 name = "embassy-time"
 version = "0.5.1"
-source = "git+https://github.com/embassy-rs/embassy.git?rev=0e68e10a8b9fbd3a9e819a872b31b44a8812021b#0e68e10a8b9fbd3a9e819a872b31b44a8812021b"
+source = "git+https://github.com/Moritz-Schmidt/embassy.git?branch=stm32-macro-scope#d682f85a4785b9edbf6d50310bd6ffd68469366f"
 dependencies = [
  "critical-section",
  "document-features",
@@ -310,7 +310,7 @@ dependencies = [
 [[package]]
 name = "embassy-time-driver"
 version = "0.2.2"
-source = "git+https://github.com/embassy-rs/embassy.git?rev=0e68e10a8b9fbd3a9e819a872b31b44a8812021b#0e68e10a8b9fbd3a9e819a872b31b44a8812021b"
+source = "git+https://github.com/Moritz-Schmidt/embassy.git?branch=stm32-macro-scope#d682f85a4785b9edbf6d50310bd6ffd68469366f"
 dependencies = [
  "document-features",
 ]
@@ -318,7 +318,7 @@ dependencies = [
 [[package]]
 name = "embassy-time-queue-utils"
 version = "0.3.2"
-source = "git+https://github.com/embassy-rs/embassy.git?rev=0e68e10a8b9fbd3a9e819a872b31b44a8812021b#0e68e10a8b9fbd3a9e819a872b31b44a8812021b"
+source = "git+https://github.com/Moritz-Schmidt/embassy.git?branch=stm32-macro-scope#d682f85a4785b9edbf6d50310bd6ffd68469366f"
 dependencies = [
  "embassy-executor-timer-queue",
  "heapless",
@@ -327,7 +327,7 @@ dependencies = [
 [[package]]
 name = "embassy-usb-driver"
 version = "0.2.2"
-source = "git+https://github.com/embassy-rs/embassy.git?rev=0e68e10a8b9fbd3a9e819a872b31b44a8812021b#0e68e10a8b9fbd3a9e819a872b31b44a8812021b"
+source = "git+https://github.com/Moritz-Schmidt/embassy.git?branch=stm32-macro-scope#d682f85a4785b9edbf6d50310bd6ffd68469366f"
 dependencies = [
  "embedded-io-async 0.6.1",
  "embedded-io-async 0.7.0",
@@ -336,7 +336,7 @@ dependencies = [
 [[package]]
 name = "embassy-usb-synopsys-otg"
 version = "0.4.0"
-source = "git+https://github.com/embassy-rs/embassy.git?rev=0e68e10a8b9fbd3a9e819a872b31b44a8812021b#0e68e10a8b9fbd3a9e819a872b31b44a8812021b"
+source = "git+https://github.com/Moritz-Schmidt/embassy.git?branch=stm32-macro-scope#d682f85a4785b9edbf6d50310bd6ffd68469366f"
 dependencies = [
  "document-features",
  "embassy-sync",
@@ -767,7 +767,7 @@ dependencies = [
 [[package]]
 name = "stm32-metapac"
 version = "21.0.0"
-source = "git+https://github.com/embassy-rs/stm32-data-generated?tag=stm32-data-720ff0c998d754f224bbd30e15303194b5664554#d5d1ee046b4c99cfc8b66bc150400881dac78894"
+source = "git+https://github.com/embassy-rs/stm32-data-generated?tag=stm32-data-28b3824f0eea177b2c3c13f880df14538eaaf4f1#878d5fa63fc1e04f635e53b330f2b8a4093da638"
 dependencies = [
  "cortex-m",
  "cortex-m-rt",
